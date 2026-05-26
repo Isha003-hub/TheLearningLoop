@@ -54,13 +54,14 @@ The model was trained on the **PubChem BioAssay AID 1272365** dataset (~440,000 
 ---
 
 ## Team
-
+ 
 | Name | Role |
-|---|---|---|
+|---|---|
 | **Ruchi Shah** | Lead |
 | Isha Shah | Member |
 | Krutik Babariya | Member |
 | Dilkhush Yadav | Member |
+
 ---
 
 ## Model Architecture
