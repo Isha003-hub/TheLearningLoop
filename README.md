@@ -43,9 +43,7 @@ This project fills that gap.
 
 **Course:** AIGC-5005 — Capstone Project, Humber Polytechnic  
 **Industry Sponsor:** [Living In Silico Inc.](https://www.livinginsilico.com)  
-**Supervisor:** Dr. Asama Nseaf  
-**Group Name:** The Learning Loop  
-**Submission Date:** April 2026  
+**Group Name:** The Learning Loop   
 
 We developed **FinalUltraModel**, a hybrid deep learning architecture that combines:
 - **Graph Attention Networks (GAT)** — to learn local structural patterns from molecular graphs
@@ -57,15 +55,12 @@ The model was trained on the **PubChem BioAssay AID 1272365** dataset (~440,000 
 
 ## Team
 
-| Name | Student ID | Role |
+| Name | Role |
 |---|---|---|
-| **Ruchi Shah** | N10020731 | Lead |
-| Isha Shah | N10009347 | Member |
-| Krutik Babariya | N10009322 | Member |
-| Dilkhush Yadav | N01723579 | Member |
-
-📧 Contact: `{n10020731, n10009347, n10009322, n01723579}@humber.ca`
-
+| **Ruchi Shah** | Lead |
+| Isha Shah | Member |
+| Krutik Babariya | Member |
+| Dilkhush Yadav | Member |
 ---
 
 ## Model Architecture
