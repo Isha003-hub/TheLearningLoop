@@ -262,7 +262,6 @@ TheLearningLoop/
 ## Acknowledgements
 
 - **Industry Sponsor:** Living In Silico Inc. — for project direction and real-world drug discovery context
-- **Supervisor:** Dr. Asama Nseaf, Humber Polytechnic — for mentorship and guidance
 - **Data Source:** National Center for Biotechnology Information (NCBI) — PubChem BioAssay AID 1272365
 - **Tools:** RDKit, PyTorch, PyTorch Geometric, NCBI PubChem
 
