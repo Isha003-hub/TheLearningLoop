@@ -1,0 +1,94 @@
+THE LEARNING LOOP - DAILY STARTUP GUIDE
+
+1. Open VS Code
+
+2. Open project folder:
+
+   TheLearningLoop
+
+---
+
+TERMINAL 1 - BACKEND
+
+Run:
+
+.\venv\Scripts\Activate.ps1
+
+Then:
+
+uvicorn backend.app:app --reload
+
+Wait until you see:
+
+INFO: Uvicorn running on http://127.0.0.1:8000
+
+Leave this terminal running.
+
+---
+
+TERMINAL 2 - FRONTEND
+
+Run:
+
+cd frontend
+
+python -m http.server 8080
+
+Wait until you see:
+
+Serving HTTP on :: port 8080
+
+Leave this terminal running.
+
+---
+
+OPEN IN BROWSER
+
+http://localhost:8080
+
+---
+
+VERIFY BACKEND
+
+Open:
+
+http://127.0.0.1:8000/docs
+
+Swagger page should appear.
+
+---
+
+STOP PROJECT
+
+Press:
+
+Ctrl + C
+
+in both terminals.
+
+---
+
+IF UVICORN NOT FOUND
+
+Activate venv first:
+
+.\venv\Scripts\Activate.ps1
+
+Then run:
+
+uvicorn backend.app:app --reload
+
+---
+
+PROJECT FLOW
+
+Terminal 1:
+(venv)
+uvicorn backend.app:app --reload
+
+Terminal 2:
+cd frontend
+python -m http.server 8080
+
+Browser:
+http://localhost:8080
