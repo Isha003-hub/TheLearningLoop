@@ -1,0 +1,48 @@
+<div class="container">
+
+    <h2>Prediction History</h2>
+
+    <table class="table table-bordered mt-4">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>SMILES</th>
+                <th>Prediction</th>
+                <th>Confidence</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody id="historyTable">
+        </tbody>
+
+    </table>
+
+</div>
+
+<div class="d-flex justify-content-between align-items-center mt-4">
+
+    <button
+        class="btn btn-sm btn-outline-danger"
+        onclick="previousPage()">
+
+        Previous
+
+    </button>
+
+    <span id="pageInfo">
+
+        Page 1
+
+    </span>
+
+    <button
+        class="btn btn-sm btn-outline-danger"
+        onclick="nextPage()">
+
+        Next
+
+    </button>
+
+</div>
