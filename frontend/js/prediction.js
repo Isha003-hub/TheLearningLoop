@@ -32,7 +32,7 @@ async function predict()
         </div>
         
         <div class="item">
-            <p class="text-xs text-muted mb-0">CONFIDANCE</p>
+            <p class="text-xs text-muted mb-0">CONFIDENCE</p>
             <p class="mb-0"><strong>${data.confidence}%</strong></p>
         </div>
     </div>
