@@ -3,10 +3,17 @@ let totalPages = 1;
 
 async function loadHistoryData(page = 1)
 {
+    
+let response =
+    await fetch(
+        `/history?page=${page}&limit=10`
+    );
+
+    /*
     let response =
         await fetch(
             `http://127.0.0.1:8000/history?page=${page}&limit=10`
-        );
+        );*/
 
     let result =
         await response.json();

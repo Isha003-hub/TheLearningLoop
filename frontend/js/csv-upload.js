@@ -17,6 +17,16 @@ async function uploadCsv()
     );
 
     let response =
+    await fetch(
+        "/predict-csv",
+        {
+            method: "POST",
+            body: formData
+        }
+    );
+    
+/* 
+    let response =
         await fetch(
             "http://127.0.0.1:8000/predict-csv",
             {
@@ -24,6 +34,7 @@ async function uploadCsv()
                 body: formData
             }
         );
+*/
 
     let data =
         await response.json();

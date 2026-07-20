@@ -1,9 +1,16 @@
 async function loadDashboardStats()
 {
+
     let response =
+    await fetch(
+        "/dashboard-stats"
+    );
+ /*   let response =
         await fetch(
             "http://127.0.0.1:8000/dashboard-stats"
-        );
+        ); 
+
+*/
 
     let data =
         await response.json();
@@ -60,11 +67,17 @@ function createChart(
 
 async function loadTopCompounds()
 {
+
     let response =
+    await fetch(
+        "/top-compounds"
+    );
+    
+/*    let response =
         await fetch(
             "http://127.0.0.1:8000/top-compounds"
         );
-
+*/
     let data =
         await response.json();
 

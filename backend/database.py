@@ -1,11 +1,19 @@
+# from sqlalchemy import create_engine, text
+
+# DATABASE_URL = "mysql+pymysql://root:@localhost/learningloop"
+
+#engine = create_engine(
+#   DATABASE_URL
+#)
+import os
 from sqlalchemy import create_engine, text
-
-DATABASE_URL = "mysql+pymysql://root:@localhost/learningloop"
-
+DATABASE_URL = os.environ.get(
+    "DATABASE_URL",
+    "mysql+pymysql://root:@localhost/learningloop"
+)
 engine = create_engine(
     DATABASE_URL
 )
-
 try:
     connection = engine.connect()
     print("Database connected successfully!")

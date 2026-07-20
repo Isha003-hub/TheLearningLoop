@@ -16,9 +16,12 @@ from backend.database import get_dashboard_stats
 from backend.database import get_top_compounds
 
 import csv
-
+import os
 
 app = FastAPI()
+
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("molecule_images", exist_ok=True)
 
 app.mount(
     "/molecule_images",
@@ -27,6 +30,26 @@ app.mount(
     ),
     name="molecule_images"
 )
+
+app.mount(
+    "/static",
+    StaticFiles(
+        directory="frontend"
+    ),
+    name="frontend"
+)
+
+# app = FastAPI()
+
+#app.mount(
+ #   "/molecule_images",
+#    StaticFiles(
+#        directory="molecule_images"
+#  ),
+ #   name="molecule_images"
+#)
+
+
 
 app.add_middleware(
     CORSMiddleware,

@@ -3,19 +3,33 @@ async function predict()
     let smiles =
         document.getElementById("smiles").value;
 
-    let response =
+let response =
+    await fetch(
+        "/predict?smiles="
+        + encodeURIComponent(smiles)
+    );
+
+ /*    let response =
         await fetch(
             "http://127.0.0.1:8000/predict?smiles="
             + encodeURIComponent(smiles)
         );
-
+*/
     let data =
         await response.json();
 
+    await fetch(
+    "/molecule-image?smiles="
+    + encodeURIComponent(smiles)
+);
+
+/*
         await fetch(
             "http://127.0.0.1:8000/molecule-image?smiles="
             + encodeURIComponent(smiles)
         );
+*/
+
     document.querySelector('.result-section').style.display = 'flex';
     document.getElementById("result").innerHTML =
 `
@@ -45,11 +59,20 @@ async function predict()
             "moleculeImage"
         );
 
+image.src =
+    "/molecule_images/"
+    + encodeURIComponent(smiles)
+    + ".png?t="
+    + new Date().getTime();
+
+/*
+
     image.src =
         "http://127.0.0.1:8000/molecule_images/"
         + encodeURIComponent(smiles)
         + ".png?t="
         + new Date().getTime();
+*/
 
     image.style.display =
         "block";
