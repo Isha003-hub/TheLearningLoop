@@ -264,7 +264,6 @@ producing candidate rankings on molecules the model never saw during training or
 └── README.md
 ```
 
-*(Adjust paths above to match your actual repository layout.)*
 
 ## Usage
 
