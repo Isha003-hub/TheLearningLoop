@@ -9,7 +9,7 @@
 </p>
 
 **The Learning Loop** · AIGC-5005 Capstone, Humber Polytechnic
-**Industry Sponsor:** [Living In Silico Inc.](https://livinginsilico.ca) · **Supervisors:** Prof. Timothy Wong, Dr. Asama Nseaf
+**Industry Sponsor:** [Living In Silico Inc.](https://livinginsilico.ca) · **Supervisor:** Prof. Timothy Wong
 
 An edge-aware Graph Isomorphism Network (GINE) that screens candidate small molecules for
 inhibitory activity against the **SSB–PriA protein–protein interaction** — a DNA-replication-repair
@@ -306,7 +306,7 @@ This work is being prepared for academic publication in partnership with Living 
 ## Acknowledgments
 
 - **Living In Silico Inc.** — industry sponsorship, project direction, and deployment platform.
-- **Prof. Timothy Wong** and **Dr. Asama Nseaf** — academic supervision, Humber Polytechnic.
+- **Prof. Timothy Wong** — academic supervision, Humber Polytechnic.
 - Built with PyTorch, PyTorch Geometric, and RDKit.
 
 ---
