@@ -1,0 +1,69 @@
+LIVING IN SILICO INC. × THELEARNINGLOOP COLLABORATION LICENSE
+
+Copyright (c) 2026 Living In Silico Inc. and the respective contributors, as applicable.
+
+PURPOSE
+
+This repository supports the collaboration between Living In Silico Inc. ("Living In Silico") and TheLearningLoop ("TheLearningLoop") consisting of group members Ruchi Shah (Team Lead), Isha Shah, Dilkhush Yadav and Krutik Babariya in software development, computational drug discovery, cheminformatics, machine learning, and related educational and research activities.
+
+OWNERSHIP
+
+Each party retains ownership of intellectual property it owned or developed independently before the collaboration.
+
+Living In Silico retains ownership of its pre-existing software, source code, algorithms, models, workflows, and documentation, to the extent owned by Living In Silico.
+
+Contributions from TheLearningLoop participants and other collaborators remain subject to the rights of their respective authors and any applicable written agreements.
+
+Posting this license does not transfer ownership of intellectual property between the parties.
+
+PERMITTED USE
+
+Subject to applicable third-party licenses, authorized participants may access, use, reproduce, and modify materials in this repository solely for the educational, research, and development purposes agreed upon by Living In Silico and TheLearningLoop.
+
+Users must preserve applicable copyright notices and attribution when reproducing or redistributing materials where required by law or the applicable license.
+
+RESTRICTIONS
+
+Unless expressly authorized in writing by the relevant rights holder, users may not:
+
+(a) Sell, sublicense, or commercially distribute proprietary materials from this repository.
+
+(b) Claim ownership of another party's original code, models, or other intellectual property.
+
+(c) Use confidential or unpublished materials outside the agreed collaboration.
+
+(d) Redistribute third-party materials in violation of their applicable licenses.
+
+(e) Use either party's name, trademarks, or logo to imply endorsement without permission.
+
+COMMERCIAL USE
+
+Commercial deployment, commercial distribution, sublicensing, or other commercial exploitation of materials subject to this license requires separate written permission from the relevant rights holder.
+
+Any commercial arrangement must specify the scope of permitted use and, where applicable, fees, intellectual property ownership, and rights to modifications or derivative works.
+
+THIRD-PARTY MATERIALS
+
+Third-party code, datasets, libraries, and other materials remain subject to their respective licenses and terms. Nothing in this license overrides those terms or grants rights that the parties do not possess.
+
+NO WARRANTY
+
+Materials are provided "AS IS", without warranties of any kind, to the extent permitted by applicable law. Neither party guarantees the accuracy, performance, suitability, or commercial success of the software, models, or research outputs.
+
+Computational predictions are research tools and do not establish experimental efficacy, clinical safety, or regulatory approval.
+
+TERMINATION
+
+Permission granted under this license may be terminated for material breach of its terms, subject to applicable law and any separate agreement between the parties.
+
+Termination does not revoke rights independently granted under applicable third-party licenses.
+
+GOVERNING LAW
+
+This license is governed by the laws of Ontario and the applicable federal laws of Canada.
+
+CONTACT
+
+For licensing permissions, commercial use, or questions concerning intellectual property, contact the relevant rights holder through the official communication channels of Living In Silico Inc. (info@livinginsilico.ca) or TheLearningLoop.
+
+END OF LICENSE
